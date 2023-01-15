@@ -12,64 +12,69 @@
 		<p id="description">A survey form on attitudes towards online learning</p>
 		<form action="" id="survey-form">
 			<!-- Important info -->
-			<label for="" id="name-label">
-				Name:
-				<input type="text" id="name" required placeholder="Enter full name..." />
-			</label>
+			<div><label for="" id="name-label"> Name: </label><input type="text" id="name" required placeholder="Enter full name..." /></div>
 
-			<label for="email" id="email-label">Email: <input type="email" required placeholder="Enter email here..." id="email" /></label>
+			<div><label for="email" id="email-label">Email: </label><input type="email" required placeholder="Enter email here..." id="email" /></div>
 
-			<label for="number" id="number-label">Age: <input type="number" placeholder="Age" min="16" max="100" id="number" /></label>
+			<div><label for="number" id="number-label">Age: </label><input type="number" placeholder="Age" min="16" max="100" id="number" /></div>
 
 			<!-- Dropdown list questions -->
-			<label for="dropdown"
-				>How often do you participate in online learning activities (e.g. taking an online course, watching a lecture on a learning platform, etc)?
+			<div>
+				<label for="dropdown">How often do you participate in online learning activities (e.g. taking an online course, watching a lecture on a learning platform, etc)? </label>
 				<select name="" id="dropdown">
 					<option value=" ">Select an option</option>
 					<option value="dd0-1">Rarely</option>
 					<option value="dd0-2">Occasionally</option>
 					<option value="dd0-3">Frequently</option>
 					<option value="dd0-4">Very frequently</option>
-				</select></label
-			>
-			<label for="dropdown1"
-				>Do you prefer online learning or in-person learning?
+				</select>
+			</div>
+			<div>
+				<label for="dropdown1">Do you prefer online learning or in-person learning? </label>
 				<select name="" id="dropdown1">
 					<option value=" ">Select an option</option>
 					<option value="dd1-1">Online learning</option>
 					<option value="dd1-2">In-person learning</option>
 					<option value="dd1-3">No preference</option>
-				</select></label
-			>
-			<label for="dropdown2"
-				>How effective do you feel online learning is for you personally?
+				</select>
+			</div>
+			<div>
+				<label for="dropdown2">How effective do you feel online learning is for you personally? </label>
 				<select name="" id="dropdown">
 					<option value=" ">Select an option</option>
 					<option value="dd2-1">Not effective at all</option>
 					<option value="dd2-2">Somewhat effective</option>
 					<option value="dd2-3">Effective</option>
 					<option value="dd2-4">Very effective</option>
-				</select></label
-			>
+				</select>
+			</div>
 
 			<!-- Radio buttons -->
-			<p>Do you think online learning is as good as in-person learning?</p>
-			<label for="rb1-yes"><input type="radio" name="rb1" id="rb1-yes" value="Yes" /> Yes</label>
-			<label for="rb1-no"><input type="radio" name="rb1" id="rb1-no" value="No" /> No</label>
+			<div>
+				<p>Do you think online learning is as good as in-person learning?</p>
+				<label for="rb1-yes"><input type="radio" name="rb1" id="rb1-yes" value="Yes" /> Yes</label>
+				<label for="rb1-no"><input type="radio" name="rb1" id="rb1-no" value="No" /> No</label>
+			</div>
 
-			<p>Have you experienced any technical issues while participating in online learning activities?</p>
-			<label for="rb2-yes"><input type="radio" name="rb2" id="rb2-yes" value="Yes" /> Yes</label>
-			<label for="rb2-no"><input type="radio" name="rb2" id="rb2-yes" value="No" /> No</label>
+			<div>
+				<p>Have you experienced any technical issues while participating in online learning activities?</p>
+				<label for="rb2-yes"><input type="radio" name="rb2" id="rb2-yes" value="Yes" /> Yes</label>
+				<label for="rb2-no"><input type="radio" name="rb2" id="rb2-yes" value="No" /> No</label>
+			</div>
 
 			<!-- Checkbox questions -->
-			<p>How does your level of motivation differ when participating in online learning compared to in-person learning?</p>
-			<label for="cb1-1"><input type="checkbox" name="cb1" id="cb1-1" value="1" /> I am more motivated for online learning</label>
-			<label for="cb1-2"><input type="checkbox" name="cb1" id="cb1-2" value="2" /> I am equally motivated for both</label>
-			<label for="cb1-3"><input type="checkbox" name="cb1" id="cb1-3" value="3" /> I am less motivated for online learning</label>
+			<div>
+				<p>How does your level of motivation differ when participating in online learning compared to in-person learning?</p>
+				<label for="cb1-1"><input type="checkbox" name="cb1" id="cb1-1" value="1" /> I am more motivated for online learning</label>
+				<label for="cb1-2"><input type="checkbox" name="cb1" id="cb1-2" value="2" /> I am equally motivated for both</label>
+				<label for="cb1-3"><input type="checkbox" name="cb1" id="cb1-3" value="3" /> I am less motivated for online learning</label>
+			</div>
 
 			<!-- Text questions -->
-			<p>Do you have any additional comments or thoughts on online learning?</p>
-			<textarea name="" id="" cols="30" rows="10"></textarea> <br />
+			<div>
+				<p>Do you have any additional comments or thoughts on online learning?</p>
+				<textarea name="" id="" cols="30" rows="10" placeholder="Enter text here..."></textarea> <br />
+			</div>
 
 			<!-- Submit button -->
 			<input type="submit" value="Submit" id="submit" />
