@@ -1,7 +1,7 @@
 # E-Learning Survey Form
 This project is a survey form created using HTML and CSS. The form includes various question types such as multiple choice, short answer, and rating scales. The design is fully responsive and optimized for all screen sizes.
 
-![screenshot of form deployed](screenshot.png)
+
 
 ## Getting Started
 - Clone or download the repository to your local machine.
